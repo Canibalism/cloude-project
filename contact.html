@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact VANTERA MEDICAL — request a demo walkthrough or technical information. Fictional demo form; no data is sent.">
+  <title>Contact — VANTERA MEDICAL (Demo)</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="brand" href="index.html" aria-label="Vantara Medical — home">
+        <span class="brand-mark" aria-hidden="true">V<span>/</span></span>
+        <span class="brand-name">VANTERA<small>MEDICAL · DEMO</small></span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="hip.html">Hip System</a></li>
+          <li><a href="knee.html">Knee System</a></li>
+          <li><a href="evidence.html">Evidence</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta"><a class="btn btn-primary btn-sm" href="contact.html">Talk to Our Team</a></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <span class="crumb"><a href="index.html">Home</a> / Contact</span>
+        <p class="eyebrow on-dark">Contact · Demo Form</p>
+        <h1 id="page-title">Start a Conversation.</h1>
+        <p>Tell us who you are and what you want to explore. The form below is a front-end demo — nothing is transmitted.</p>
+      </div>
+    </section>
+    <div class="demo-strip" role="note">
+      <div class="wrap"><span class="demo-tag">Demo data</span><span>DEMO DATA — FOR DESIGN PRACTICE ONLY. Demo form — submissions stay in your browser.</span></div>
+    </div>
+
+    <section class="section" aria-label="Contact form and details">
+      <div class="wrap split tight">
+        <form class="card" data-validate data-success="Thank you — your demo request was received. (Nothing was sent; this is a front-end demo.)" novalidate aria-labelledby="form-title" style="padding:36px 32px;">
+          <h2 id="form-title" style="font-size:1.5rem;margin-bottom:6px;">Request information</h2>
+          <p style="color:var(--muted);font-size:0.92rem;margin-bottom:24px;">Fields marked <span style="color:var(--accent);font-weight:700;">*</span> are required.</p>
+          <div class="form-grid">
+            <div class="field">
+              <label for="fullName">Full Name <span class="req" aria-hidden="true">*</span></label>
+              <input id="fullName" name="fullName" type="text" autocomplete="name" data-required placeholder="Jordan Avery">
+              <span class="err" data-err-for="fullName" role="alert">Please enter your full name.</span>
+            </div>
+            <div class="field">
+              <label for="org">Organization <span class="req" aria-hidden="true">*</span></label>
+              <input id="org" name="org" type="text" autocomplete="organization" data-required placeholder="Metro Orthopedic Center">
+              <span class="err" data-err-for="org" role="alert">Please enter your organization.</span>
+            </div>
+            <div class="field">
+              <label for="role">Role <span class="req" aria-hidden="true">*</span></label>
+              <select id="role" name="role" data-required>
+                <option value="">Select your role…</option>
+                <option>Orthopedic Surgeon</option>
+                <option>Procurement / Value Analysis</option>
+                <option>OR / Nursing Leadership</option>
+                <option>Technology Partner</option>
+                <option>Other</option>
+              </select>
+              <span class="err" data-err-for="role" role="alert">Please choose your role.</span>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" data-required placeholder="you@example.org">
+              <span class="err" data-err-for="email" role="alert">Please enter a valid email address.</span>
+            </div>
+            <div class="field full">
+              <label for="interest">Area of Interest <span class="req" aria-hidden="true">*</span></label>
+              <select id="interest" name="interest" data-required>
+                <option value="">Select an area…</option>
+                <option>VANTERA HIP System (demo)</option>
+                <option>VANTERA KNEE System (demo)</option>
+                <option>Sample evidence / methods</option>
+                <option>Partnership / integration</option>
+                <option>General inquiry</option>
+              </select>
+              <span class="err" data-err-for="interest" role="alert">Please choose an area of interest.</span>
+            </div>
+            <div class="field full">
+              <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" data-required placeholder="Tell us about your cases, rooms or goals…"></textarea>
+              <span class="err" data-err-for="message" role="alert">Please add a short message.</span>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit" data-label="Start a Conversation" style="width:100%;margin-top:22px;">Start a Conversation</button>
+          <p class="form-status" data-form-status role="status"></p>
+        </form>
+
+        <div class="reveal">
+          <p class="eyebrow">What Happens Next (Demo)</p>
+          <h2>One business day, three steps.</h2>
+          <ol class="tick-list">
+            <li><span class="tick" aria-hidden="true">1</span><div><strong>We read your note</strong><p>A fictional specialist reviews your area of interest.</p></div></li>
+            <li><span class="tick" aria-hidden="true">2</span><div><strong>We send demo materials</strong><p>Sample specs and workflow models matched to your role.</p></div></li>
+            <li><span class="tick" aria-hidden="true">3</span><div><strong>We schedule a walkthrough</strong><p>A 30-minute demo call at your convenience.</p></div></li>
+          </ol>
+          <div class="card" style="margin-top:28px;background:var(--navy-900);border-color:var(--navy-800);">
+            <span class="card-index" style="color:var(--accent-glow);">Direct · fictional</span>
+            <h3 style="color:#fff;">hello@vantera-medical.example</h3>
+            <p style="color:#b9c4d8;">+1 (555) 014-2200 · Mon–Fri, 9–5 ET (all fictional)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Vantara Medical — home">
+          <span class="brand-mark" aria-hidden="true">V<span>/</span></span>
+          <span class="brand-name" style="color:#fff;">VANTA<small style="color:#8fa0bd;">MEDICAL · DEMO</small></span>
+        </a>
+        <p>Fictional Class II orthopedic demo platform. Design-practice concept only.</p>
+      </div>
+      <nav aria-label="Products"><h3>Products</h3><ul>
+        <li><a href="products.html">Overview</a></li><li><a href="hip.html">Hip System</a></li><li><a href="knee.html">Knee System</a></li><li><a href="landing.html">Campaign Page</a></li>
+      </ul></nav>
+      <nav aria-label="Company"><h3>Company</h3><ul>
+        <li><a href="evidence.html">Evidence</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+      <nav aria-label="Resources"><h3>Resources</h3><ul>
+        <li><a href="evidence.html#resources">Sample Studies</a></li><li><a href="contact.html">Request Info</a></li><li><a href="index.html">Home</a></li>
+      </ul></nav>
+    </div>
+    <div class="footer-legal"><div class="wrap">
+      <span>© <span data-year>2026</span> VANTERA MEDICAL (fictional). DEMO DATA — FOR DESIGN PRACTICE ONLY.</span>
+      <span>Not a real medical device. No clinical claims.</span>
+    </div></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

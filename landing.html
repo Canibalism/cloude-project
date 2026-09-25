@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VANTERA platform overview — campaign landing page. Fictional demo content for design practice.">
+  <title>The VANTERA Platform — Campaign Overview (Demo)</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="brand" href="index.html" aria-label="Vantara Medical — home">
+        <span class="brand-mark" aria-hidden="true">V<span>/</span></span>
+        <span class="brand-name">VANTERA<small>MEDICAL · DEMO</small></span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="hip.html">Hip System</a></li>
+          <li><a href="knee.html">Knee System</a></li>
+          <li><a href="evidence.html">Evidence</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta"><a class="btn btn-primary btn-sm" href="contact.html">Talk to Our Team</a></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Campaign hero -->
+    <section class="hero" aria-labelledby="camp-title">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow on-dark">Campaign · Platform Overview</p>
+          <h1 id="camp-title">One platform for hips <span class="accent-word">and</span> knees.</h1>
+          <p class="sub">A single demo design language across two joint systems — fewer trays to learn, one workflow to master, sample data to model the value.</p>
+          <div class="hero-actions">
+            <a class="btn btn-on-dark" href="contact.html">Request Technical Information</a>
+            <button class="btn btn-ghost-dark" type="button" data-spec="overview">Download Spec Sheet</button>
+          </div>
+          <p class="hero-note">Fictional campaign concept — all figures are demo placeholders.</p>
+        </div>
+        <figure class="hero-visual">
+          <svg viewBox="0 0 520 380" role="img" aria-label="Illustrative diagram pairing hip and knee demo components">
+            <g stroke="#3b547c" stroke-width="1" opacity="0.7">
+              <circle cx="150" cy="180" r="110" fill="none"/><circle cx="370" cy="180" r="110" fill="none"/>
+            </g>
+            <g><!-- hip side -->
+              <path d="M140 70 h20 l-5 150 q-1 18-7 28 h-5 q-7 -12 -8 -30 Z" fill="#5b8cff" opacity="0.9"/>
+              <circle cx="150" cy="60" r="12" fill="#9db4d8"/>
+              <path d="M80 250 A32 32 0 0 0 144 250 Z" fill="#9db4d8"/>
+            </g>
+            <g><!-- knee side -->
+              <rect x="344" y="60" width="52" height="44" rx="10" fill="#5b8cff" opacity="0.9"/>
+              <rect x="352" y="110" width="36" height="14" rx="5" fill="#9db4d8"/>
+              <path d="M346 130 h48 l-6 80 q-1 20-18 20 q-17 0 -18 -20 Z" fill="#9db4d8" opacity="0.85"/>
+            </g>
+            <line x1="230" y1="180" x2="290" y2="180" stroke="#5b8cff" stroke-width="1" stroke-dasharray="5 5"/>
+            <text x="238" y="168" font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="2">1:1</text>
+            <g font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="1">
+              <text x="118" y="320">HIP DEMO</text><text x="340" y="320">KNEE DEMO</text>
+            </g>
+            <text x="30" y="362" font-family="JetBrains Mono, monospace" font-size="10" fill="#5f7494" letter-spacing="2">FIG. C-01 — SHARED LANGUAGE · ILLUSTRATIVE</text>
+          </svg>
+          <figcaption><span>Fig. C-01 — Shared platform, illustrative</span><span>Demo diagram</span></figcaption>
+        </figure>
+      </div>
+    </section>
+    <div class="demo-strip" role="note">
+      <div class="wrap"><span class="demo-tag">Demo data</span><span>DEMO DATA — FOR DESIGN PRACTICE ONLY.</span></div>
+    </div>
+
+    <!-- Comparison -->
+    <section class="section" aria-labelledby="cmp-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">At a Glance</p>
+          <h2 id="cmp-title">Hip vs. knee demo concepts.</h2>
+          <p><span class="demo-tag">Demo data</span></p>
+        </div>
+        <div class="compare-wrap reveal">
+          <table class="compare">
+            <caption style="position:absolute;left:-9999px;">Fictional comparison of VANTERA hip and knee demo systems</caption>
+            <thead><tr><th scope="col">Capability (demo)</th><th scope="col">VANTERA HIP</th><th scope="col" class="hl">Shared Platform</th><th scope="col">VANTERA KNEE</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Sizing logic</th><td>Stem 9–15 demo</td><td class="hl">Indexed steps</td><td>Sizes 1–8 demo</td></tr>
+              <tr><th scope="row">Tray concept</th><td>3 demo trays</td><td class="hl">Color-coded sequence</td><td>1-flow demo set</td></tr>
+              <tr><th scope="row">Modeled setup</th><td>3.4 min demo</td><td class="hl">Sub-4-min goal</td><td>3.6 min demo</td></tr>
+              <tr><th scope="row">Sample fit rate</th><td>98% demo</td><td class="hl">Bench-verified fiction</td><td>97% demo</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mini lead form -->
+    <section class="section-sm" aria-labelledby="lead-title" style="background:var(--mist);border-top:1px solid var(--hairline);">
+      <div class="wrap split tight">
+        <div class="reveal">
+          <p class="eyebrow">Campaign Offer</p>
+          <h2 id="lead-title">Get the 8-page demo overview.</h2>
+          <p class="lead">Leave a fictional email to preview the download interaction. The spec sheet downloads instantly — the form is a front-end demo.</p>
+          <div class="hero-actions" style="margin-top:24px;">
+            <button class="btn btn-primary" type="button" data-spec="overview">Download Spec Sheet</button>
+          </div>
+        </div>
+        <form class="card reveal" data-validate data-success="Thanks — check your inbox for the fictional overview. (Demo only; nothing was sent.)" novalidate aria-label="Campaign download form" style="padding:32px 28px;">
+          <div class="form-grid">
+            <div class="field">
+              <label for="cName">Full Name <span class="req" aria-hidden="true">*</span></label>
+              <input id="cName" type="text" autocomplete="name" data-required placeholder="Jordan Avery">
+              <span class="err" data-err-for="cName" role="alert">Please enter your name.</span>
+            </div>
+            <div class="field">
+              <label for="cEmail">Work Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="cEmail" type="email" autocomplete="email" data-required placeholder="you@example.org">
+              <span class="err" data-err-for="cEmail" role="alert">Please enter a valid email.</span>
+            </div>
+            <div class="field full">
+              <label for="cRole">Role <span class="req" aria-hidden="true">*</span></label>
+              <select id="cRole" data-required>
+                <option value="">Select your role…</option>
+                <option>Orthopedic Surgeon</option>
+                <option>Procurement / Value Analysis</option>
+                <option>Technology Partner</option>
+                <option>Other</option>
+              </select>
+              <span class="err" data-err-for="cRole" role="alert">Please choose your role.</span>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit" data-label="Send Me the Overview" style="width:100%;margin-top:20px;">Send Me the Overview</button>
+          <p class="form-status" data-form-status role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="final-cta" aria-labelledby="cta-title">
+      <div class="wrap">
+        <p class="eyebrow reveal" style="justify-content:center;">Final Call</p>
+        <h2 id="cta-title" class="reveal">Let&rsquo;s Build What&rsquo;s Next.</h2>
+        <div class="hero-actions reveal"><a class="btn btn-primary" href="contact.html">Talk to Our Team</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Vantara Medical — home">
+          <span class="brand-mark" aria-hidden="true">V<span>/</span></span>
+          <span class="brand-name" style="color:#fff;">VANTA<small style="color:#8fa0bd;">MEDICAL · DEMO</small></span>
+        </a>
+        <p>Fictional Class II orthopedic demo platform. Design-practice concept only.</p>
+      </div>
+      <nav aria-label="Products"><h3>Products</h3><ul>
+        <li><a href="products.html">Overview</a></li><li><a href="hip.html">Hip System</a></li><li><a href="knee.html">Knee System</a></li><li><a href="landing.html">Campaign Page</a></li>
+      </ul></nav>
+      <nav aria-label="Company"><h3>Company</h3><ul>
+        <li><a href="evidence.html">Evidence</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+      <nav aria-label="Resources"><h3>Resources</h3><ul>
+        <li><a href="evidence.html#resources">Sample Studies</a></li><li><a href="contact.html">Request Info</a></li><li><a href="index.html">Home</a></li>
+      </ul></nav>
+    </div>
+    <div class="footer-legal"><div class="wrap">
+      <span>© <span data-year>2026</span> VANTERA MEDICAL (fictional). DEMO DATA — FOR DESIGN PRACTICE ONLY.</span>
+      <span>Not a real medical device. No clinical claims.</span>
+    </div></div>
+  </footer>
+  <div class="sticky-cta"><a class="btn btn-primary" href="contact.html">Talk to Our Team</a></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

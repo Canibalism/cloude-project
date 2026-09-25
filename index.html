@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VANTERA MEDICAL — Next-generation Class II orthopedic hip and knee replacement systems. Fictional demo website for design practice.">
+  <title>VANTERA MEDICAL — Engineering the Next Generation of Joint Replacement</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="brand" href="index.html" aria-label="Vantara Medical — home">
+        <span class="brand-mark" aria-hidden="true">V<span>/</span></span>
+        <span class="brand-name">VANTERA<small>MEDICAL · DEMO</small></span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="hip.html">Hip System</a></li>
+          <li><a href="knee.html">Knee System</a></li>
+          <li><a href="evidence.html">Evidence</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-primary btn-sm" href="contact.html">Talk to Our Team</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow on-dark">Class II Orthopedic Systems · Demo Concept</p>
+          <h1 id="hero-title">Engineering the Next Generation of <span class="accent-word">Joint Replacement.</span></h1>
+          <p class="sub">Advanced orthopedic systems designed around surgical precision, workflow efficiency, and measurable procedural value.</p>
+          <div class="hero-proof" aria-label="Platform highlights">
+            <span><i aria-hidden="true"></i>Hip + Knee Platforms</span>
+            <span><i aria-hidden="true"></i>Workflow-First Design</span>
+            <span><i aria-hidden="true"></i>Demo Data Throughout</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-on-dark" href="products.html">Explore the Technology
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <button class="btn btn-ghost-dark" type="button" data-spec="overview">Download Spec Sheet</button>
+          </div>
+          <p class="hero-note">Fictional concept site — all products, specs and results are demo content.</p>
+        </div>
+        <figure class="hero-visual">
+          <!-- Hand-built SVG: stylized implant engineering visual -->
+          <svg viewBox="0 0 520 460" role="img" aria-label="Technical illustration of a hip implant concept with precision callouts">
+            <defs>
+              <linearGradient id="stemGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#9db4d8"/><stop offset="0.55" stop-color="#5b8cff"/><stop offset="1" stop-color="#2b4c8a"/>
+              </linearGradient>
+              <linearGradient id="cupGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#c9d6ee"/><stop offset="1" stop-color="#6f89b5"/>
+              </linearGradient>
+            </defs>
+            <!-- crosshair guides -->
+            <g stroke="#3b547c" stroke-width="1" stroke-dasharray="5 6" opacity="0.8">
+              <line x1="260" y1="18" x2="260" y2="442"/><line x1="30" y1="230" x2="490" y2="230"/>
+            </g>
+            <circle cx="260" cy="230" r="150" fill="none" stroke="#3b547c" stroke-width="1" opacity="0.7"/>
+            <circle cx="260" cy="230" r="104" fill="none" stroke="#3b547c" stroke-width="1" stroke-dasharray="3 6" opacity="0.7"/>
+            <!-- femoral stem -->
+            <g>
+              <rect x="238" y="52" width="44" height="26" rx="4" fill="url(#stemGrad)"/>
+              <path d="M244 78 L276 78 L268 300 Q267 330 252 348 L244 348 Q232 322 236 290 Z" fill="url(#stemGrad)" stroke="#dbe4f3" stroke-width="1.5"/>
+              <g stroke="#dbe4f3" stroke-width="1" opacity="0.55">
+                <line x1="240" y1="120" x2="272" y2="120"/><line x1="240" y1="150" x2="271" y2="150"/>
+                <line x1="241" y1="180" x2="270" y2="180"/><line x1="242" y1="210" x2="268" y2="210"/>
+                <line x1="243" y1="240" x2="266" y2="240"/><line x1="244" y1="270" x2="263" y2="270"/>
+              </g>
+              <circle cx="260" cy="40" r="21" fill="url(#cupGrad)" stroke="#dbe4f3" stroke-width="1.5"/>
+            </g>
+            <!-- acetabular cup -->
+            <g>
+              <path d="M120 300 A52 52 0 0 0 224 300 Z" fill="url(#cupGrad)" stroke="#dbe4f3" stroke-width="1.5"/>
+              <path d="M138 300 A34 34 0 0 1 206 300" fill="none" stroke="#0a1428" stroke-width="3"/>
+            </g>
+            <!-- callouts -->
+            <g font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="1">
+              <line x1="282" y1="120" x2="380" y2="120" stroke="#5b8cff" stroke-width="1"/>
+              <circle cx="282" cy="120" r="3" fill="#5b8cff"/>
+              <text x="388" y="124">TAPER 3° DEMO</text>
+              <line x1="224" y1="285" x2="120" y2="352" stroke="#5b8cff" stroke-width="1"/>
+              <circle cx="224" cy="285" r="3" fill="#5b8cff"/>
+              <text x="40" y="372">CUP 44–62 DEMO</text>
+              <line x1="260" y1="348" x2="260" y2="408" stroke="#5b8cff" stroke-width="1"/>
+              <circle cx="260" cy="348" r="3" fill="#5b8cff"/>
+              <text x="286" y="412">TIP R2.5 DEMO</text>
+            </g>
+            <text x="30" y="440" font-family="JetBrains Mono, monospace" font-size="11" fill="#5f7494" letter-spacing="2">FIG. 01 — HIP PLATFORM · ILLUSTRATIVE</text>
+          </svg>
+          <figcaption><span>Fig. 01 — Hip platform, illustrative</span><span>Not a real device</span></figcaption>
+        </figure>
+      </div>
+    </section>
+    <div class="demo-strip" role="note">
+      <div class="wrap"><span class="demo-tag">Demo data</span><span>Practice project: every product, specification and result on this site is fictional.</span></div>
+    </div>
+
+    <!-- ============ TECHNOLOGY ============ -->
+    <section class="section" aria-labelledby="tech-title" data-spy>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Engineering Philosophy</p>
+          <h2 id="tech-title">Designed like a technology product. Built for the operating room.</h2>
+          <p class="lead">Three principles shape every VANTERA system — from first sketch to sterile tray. Each one exists to remove friction between intent and outcome.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card hoverable reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
+            </div>
+            <span class="card-index">01</span>
+            <h3>Precision Engineering</h3>
+            <p>Tight-tolerance demo geometries, single-setup machining concepts and verifiable interfaces — drawn, measured and re-measured before anything ships.</p>
+          </article>
+          <article class="card hoverable reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+            </div>
+            <span class="card-index">02</span>
+            <h3>Surgical Workflow</h3>
+            <p>Fewer trays, clearer sequencing and instruments that guide the hand. Every step is choreographed to keep the room calm and the case moving.</p>
+          </article>
+          <article class="card hoverable reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-6 3 3 5-8"/></svg>
+            </div>
+            <span class="card-index">03</span>
+            <h3>Data-Driven Design</h3>
+            <p>Procedural data loops back into design iterations. What the OR teaches, the next revision learns — a demo feedback model, end to end.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="section" style="background:var(--mist);border-top:1px solid var(--hairline);border-bottom:1px solid var(--hairline);" aria-labelledby="prod-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">The Platform</p>
+          <h2 id="prod-title">Two systems. One design language.</h2>
+          <p class="lead">Hip and knee platforms that share instrumentation logic, tray layouts and a single learning curve.</p>
+        </div>
+
+        <article class="product-panel reveal">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 300" role="presentation" aria-hidden="true">
+              <g stroke="#3b547c" stroke-width="1" opacity="0.6"><circle cx="200" cy="150" r="110" fill="none"/><circle cx="200" cy="150" r="72" fill="none" stroke-dasharray="3 6"/></g>
+              <path d="M188 30 h24 l-6 190 q-1 22-8 34 h-6 q-9 -14 -10 -36 Z" fill="#5b8cff" opacity="0.9"/>
+              <circle cx="200" cy="22" r="15" fill="#9db4d8"/>
+              <path d="M96 210 A40 40 0 0 0 176 210 Z" fill="#9db4d8"/>
+              <text x="248" y="120" font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="1">STEM</text>
+              <text x="248" y="230" font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="1">CUP</text>
+              <line x1="212" y1="116" x2="242" y2="116" stroke="#5b8cff"/><line x1="176" y1="226" x2="242" y2="226" stroke="#5b8cff"/>
+            </svg>
+            <p class="fig-tag">Fig. 02 — Vantera Hip · Illustrative diagram</p>
+          </div>
+          <div class="product-body">
+            <p class="eyebrow">Hip Replacement</p>
+            <h3>VANTERA HIP System</h3>
+            <p>A press-fit demo platform concept built around reproducible seating, leg-length control and a compact three-tray workflow.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><strong>Reproducible seating</strong> — tapered demo geometry concept.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><strong>Leg-length control</strong> — indexed head/neck demo options.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><strong>Three-tray set</strong> — sequenced, color-coded demo layout.</span></li>
+            </ul>
+            <div class="spec-chips" aria-label="Technical highlights"><span>STEM 9–15 DEMO</span><span>CUP 44–62 DEMO</span><span>3-TRAY SET</span></div>
+            <div class="product-actions">
+              <a class="btn btn-primary" href="hip.html">Explore Hip System</a>
+              <button class="btn btn-secondary" type="button" data-spec="hip">Spec Sheet</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-panel reveal">
+          <div class="product-visual" aria-hidden="true">
+            <svg viewBox="0 0 400 300" role="presentation" aria-hidden="true">
+              <g stroke="#3b547c" stroke-width="1" opacity="0.6"><circle cx="200" cy="150" r="110" fill="none"/><circle cx="200" cy="150" r="72" fill="none" stroke-dasharray="3 6"/></g>
+              <rect x="168" y="40" width="64" height="52" rx="10" fill="#5b8cff" opacity="0.9"/>
+              <rect x="176" y="100" width="48" height="20" rx="6" fill="#9db4d8"/>
+              <path d="M168 128 h64 l-8 96 q-1 26-24 26 q-23 0 -24 -26 Z" fill="#9db4d8" opacity="0.85"/>
+              <text x="248" y="70" font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="1">FEMUR</text>
+              <text x="248" y="180" font-family="JetBrains Mono, monospace" font-size="11" fill="#9db4d8" letter-spacing="1">TIBIA</text>
+              <line x1="232" y1="66" x2="242" y2="66" stroke="#5b8cff"/><line x1="232" y1="176" x2="242" y2="176" stroke="#5b8cff"/>
+            </svg>
+            <p class="fig-tag">Fig. 03 — Vantera Knee · Illustrative diagram</p>
+          </div>
+          <div class="product-body">
+            <p class="eyebrow">Knee Replacement</p>
+            <h3>VANTERA KNEE System</h3>
+            <p>A balanced-gap demo platform concept pairing symmetric femoral geometry with a single-rationale instrument flow from cut to closure.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><strong>Balanced-gap concept</strong> — symmetric demo condyle geometry.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><strong>One-flow instruments</strong> — cut-to-closure demo sequencing.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><strong>Size logic 1–8</strong> — matched femur/tibia demo sizing.</span></li>
+            </ul>
+            <div class="spec-chips" aria-label="Technical highlights"><span>SIZES 1–8 DEMO</span><span>PS / CR DEMO</span><span>9–17 MM INSERTS</span></div>
+            <div class="product-actions">
+              <a class="btn btn-primary" href="knee.html">Explore Knee System</a>
+              <button class="btn btn-secondary" type="button" data-spec="knee">Spec Sheet</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ VALUE / METRICS ============ -->
+    <section class="band" aria-labelledby="value-title">
+      <div class="wrap">
+        <p class="eyebrow on-dark reveal">Procedural Value</p>
+        <h2 id="value-title" class="reveal">Measurable value, modeled in the demo OR.</h2>
+        <p class="lead reveal">Sample figures from fictional workflow modeling — shown to illustrate how VANTERA frames efficiency, not to claim outcomes.</p>
+        <div class="metric-grid reveal" role="list">
+          <div class="metric" role="listitem">
+            <p class="metric-value"><span data-count="12" data-suffix="%">0%</span></p>
+            <p class="metric-label">Workflow improvement</p>
+            <p class="metric-desc">Modeled tray touches per demo case vs. a fictional baseline.</p>
+            <span class="demo-tag">Demo data</span>
+          </div>
+          <div class="metric" role="listitem">
+            <p class="metric-value"><span data-count="3.4" data-decimals="1">0</span><em> min</em></p>
+            <p class="metric-label">Average setup</p>
+            <p class="metric-desc">Illustrative instrument setup time in a simulated room.</p>
+            <span class="demo-tag">Demo data</span>
+          </div>
+          <div class="metric" role="listitem">
+            <p class="metric-value"><span data-count="98" data-suffix="%">0%</span></p>
+            <p class="metric-label">Component fit consistency</p>
+            <p class="metric-desc">Fictional bench-fit rate across demo size runs.</p>
+            <span class="demo-tag">Demo data</span>
+          </div>
+        </div>
+        <p style="margin-top:26px;font-size:0.85rem;color:#8fa0bd;" class="reveal">DEMO DATA — FOR DESIGN PRACTICE ONLY. Figures are invented placeholders, not clinical evidence.</p>
+      </div>
+    </section>
+
+    <!-- ============ AUDIENCES ============ -->
+    <section class="section" aria-labelledby="aud-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Who We Serve</p>
+          <h2 id="aud-title">One platform, three front doors.</h2>
+        </div>
+        <div class="audience-grid">
+          <article class="audience-card reveal">
+            <div class="audience-top"><p class="role">Surgeons</p><h3>Higher confidence at every step.</h3></div>
+            <div class="audience-body">
+              <p>Demo instrumentation logic that reads the room: indexed, tactile, hard to get wrong.</p>
+              <ul><li>Surgical technique concepts</li><li>Demo sizing rationale</li><li>Preference-card modeling</li></ul>
+              <a class="btn btn-secondary btn-sm" href="contact.html">Request Technical Info</a>
+            </div>
+          </article>
+          <article class="audience-card reveal">
+            <div class="audience-top"><p class="role">Hospitals</p><h3>Designed around procedural efficiency.</h3></div>
+            <div class="audience-body">
+              <p>Fewer trays, faster turns and value framing your procurement team can model.</p>
+              <ul><li>Tray &amp; sterilization modeling</li><li>Turnover walkthroughs</li><li>Value-analysis support</li></ul>
+              <a class="btn btn-secondary btn-sm" href="evidence.html">See Sample Evidence</a>
+            </div>
+          </article>
+          <article class="audience-card reveal">
+            <div class="audience-top"><p class="role">Partners</p><h3>Build the future of orthopedic technology.</h3></div>
+            <div class="audience-body">
+              <p>Interface docs, data models and co-development pathways for demo integrations.</p>
+              <ul><li>API &amp; data concepts</li><li>Co-development programs</li><li>Demo integration kits</li></ul>
+              <a class="btn btn-secondary btn-sm" href="about.html">About VANTERA</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="final-cta" aria-labelledby="cta-title">
+      <div class="wrap">
+        <p class="eyebrow reveal" style="justify-content:center;">Get Started</p>
+        <h2 id="cta-title" class="reveal">Let&rsquo;s Build What&rsquo;s Next.</h2>
+        <p class="reveal">Tell us about your cases, your rooms and your goals. We&rsquo;ll bring the demo trays.</p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="contact.html">Talk to Our Team</a>
+          <a class="btn btn-secondary" href="landing.html">Get the Overview</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Vantara Medical — home">
+          <span class="brand-mark" aria-hidden="true">V<span>/</span></span>
+          <span class="brand-name" style="color:#fff;">VANTA<small style="color:#8fa0bd;">MEDICAL · DEMO</small></span>
+        </a>
+        <p>Fictional Class II orthopedic demo platform. Built as a design-practice concept — not a real company or device.</p>
+      </div>
+      <nav aria-label="Products"><h3>Products</h3><ul>
+        <li><a href="products.html">Overview</a></li><li><a href="hip.html">Hip System</a></li><li><a href="knee.html">Knee System</a></li><li><a href="landing.html">Campaign Page</a></li>
+      </ul></nav>
+      <nav aria-label="Company"><h3>Company</h3><ul>
+        <li><a href="evidence.html">Evidence</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+      <nav aria-label="Resources"><h3>Resources</h3><ul>
+        <li><a href="evidence.html#resources">Sample Studies</a></li><li><a href="contact.html">Request Info</a></li><li><a href="index.html">Back to Top</a></li>
+      </ul></nav>
+    </div>
+    <div class="footer-legal"><div class="wrap">
+      <span>© <span data-year>2026</span> VANTERA MEDICAL (fictional). DEMO DATA — FOR DESIGN PRACTICE ONLY.</span>
+      <span>Not a real medical device. No clinical claims.</span>
+    </div></div>
+  </footer>
+
+  <div class="sticky-cta"><a class="btn btn-primary" href="contact.html">Talk to Our Team</a></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
